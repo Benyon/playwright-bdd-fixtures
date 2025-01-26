@@ -1,0 +1,19 @@
+{
+  "pageHeader": "#wrapper h1[class*='heading'], #current-question .govuk-label--l",
+  "link": "#wrapper .govuk-link",
+  "button": "#wrapper .govuk-button",
+  "radioItem": "#current-question .govuk-radios__item",
+  "inputField": "#current-question input[type='text']",
+  "dateInputField": "#current-question .govuk-date-input__item",
+  "dateDayField": "#current-question input[name='response[day]']",
+  "dateMonthField": "input[name='response[month]']",
+  "dateYearField": "input[name='response[year]']",
+  "resultInfo": "#result-info",
+  "summaryBody": "[data-flow-name='calculate-your-holiday-entitlement']",
+  "summaryListContainer": "dl.govuk-summary-list",
+  "summaryListRow": ".govuk-summary-list__row",
+  "summaryListKey": ".govuk-summary-list__key",
+  "summaryListValue": ".govuk-summary-list__value",
+  "errorTitle": ".govuk-error-summary__title",
+  "errorSummary": ".govuk-error-summary__list"
+}

@@ -1,0 +1,12 @@
+{
+  "cucumberautocomplete.steps": ["pages/**/*.ts"],
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.strictGherkinValidation": false,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.onTypeFormat": true,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "strings": true,
+    "other": true
+  },
+}  

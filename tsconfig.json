@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2021",
+    "module": "nodenext",
+    "resolveJsonModule": true,
+    "strict": true,
+    "noEmit": true,
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@support/*": ["support/*"],
+    }
+  },
+  "include": ["**/*.ts"]
+}

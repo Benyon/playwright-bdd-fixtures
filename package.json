@@ -1,0 +1,25 @@
+{
+  "name": "playwright-bdd-example",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "eslint",
+    "test:run": "npm run clean && npx bddgen && npx playwright test",
+    "test:open": "npm run clean && npx bddgen && playwright test --ui",
+    "clean": "rm -rf .features-gen cucumber-report playwright-report test-results",
+    "report": "npx http-server ./cucumber-report -c-1 -o index.html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^20.9.4",
+    "http-server": "14.1.1",
+    "playwright-bdd": "^8.1.0",
+    "prettier": "3.4.2",
+    "prettier-plugin-gherkin": "^3.1.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "eslint": "^9.19.0",
+    "eslint-plugin-visual-complexity": "^0.1.4",
+    "typescript-eslint": "^8.21.0"
+  }
+}
