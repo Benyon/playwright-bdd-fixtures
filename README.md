@@ -19,6 +19,7 @@ This project demonstrates automated testing capabilities using Playwright with B
 ├── features/                # Gherkin feature files
 ├── pages/                   # POM model, with steps embedded into the page files themselves
 ├── support/                 # Utility files, types and locators
+├── task2/                   # Accessibility report and critical bug report for task 2
 ├── playwright.config.ts     # Playwright configuration
 ├── eslint.config.mjs        # Linting rules to align to a common practice
 └── prettier.config.mjs      # Formatter rules to align to a common practice
